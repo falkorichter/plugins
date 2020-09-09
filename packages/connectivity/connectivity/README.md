@@ -45,7 +45,7 @@ initState() {
 
   subscription = Connectivity().onConnectivityChanged.listen((ConnectivityResult result) {
     // Got a new connectivity status!
-  })
+  });
 }
 
 // Be sure to cancel subscription after you are done
